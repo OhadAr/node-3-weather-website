@@ -8,7 +8,7 @@ weatherForm.addEventListener('submit', (e) => {   // Event listener for on click
     messageOne.textContent = "LOADING..."       
     messageTwo.textContent = ""                 //   Clean the <p> from last search resault
     const location = search.value              //    Geting the location value from the user's imput
-    fetch(`http://localhost:3000/weather?address=${location}`).then((response) => {   // Fetch the resault from the query 
+    fetch(`/weather?address=${location}`).then((response) => {   // Fetch the resault from the query 
     response.json().then((data) => {
         if (data.error) {
             messageOne.textContent = data.error      // Printing error if needed
