@@ -1,0 +1,54 @@
+*{
+    background-color: #81918e;
+}
+
+a {
+    background-color: whitesmoke;
+    text-decoration: none;
+    color: black;
+    
+}
+
+img {
+    border-radius: 15px;
+    width: 550px;
+    height: 350px;
+}
+
+h1 {
+    font-size: 55px;
+    font-family: 'Indie Flower', cursive;
+}
+
+h3 {
+    font-size: 14px;
+    font-family: 'Geo', sans-serif;
+    font-weight: bold;
+    color: red;
+}
+
+input {
+    color: black;
+    border: 3px solid black;
+    padding: 8px;
+    margin-right: 14px;
+}
+
+button {
+    color: black;
+    border-radius: 6px;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+#message-1, #message-2 {
+    font-size: 24px;
+    font-family: 'Acme', sans-serif;
+    color: rgb(3, 0, 3)
+    
+}
+
+.spacer {
+    height: 180px;
+}
+
