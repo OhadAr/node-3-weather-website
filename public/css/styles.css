@@ -16,6 +16,7 @@ img {
 }
 
 h1 {
+    color: yellowgreen;
     font-size: 55px;
     font-family: 'Indie Flower', cursive;
 }
@@ -52,4 +53,5 @@ button {
 .spacer {
     height: 180px;
 }
+
 
