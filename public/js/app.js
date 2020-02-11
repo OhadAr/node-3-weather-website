@@ -14,8 +14,8 @@ weatherForm.addEventListener('submit', (e) => {
         } else {
             const forecastStr = data.forecast.split("!")
             messages[0].textContent = data.location
-            
-            for (let i=0; i <= messages.length; i++){
+            console.log(messages.length)
+            for (let i=0; i < messages.length-1; i++){
                 messages[i+1].textContent = forecastStr[i] 
             }
         } 
