@@ -1,5 +1,5 @@
 *{
-    background-color: #454545;
+    background-color: #3a3232;
 }
 
 a {
@@ -22,10 +22,10 @@ h1 {
 }
 
 h3 {
-    font-size: 14px;
+    font-size: 25px;
     font-family: 'Geo', sans-serif;
     font-weight: bold;
-    color: red;
+    color: yellowgreen;
 }
 
 input {
