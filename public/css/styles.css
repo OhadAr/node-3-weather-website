@@ -5,8 +5,7 @@
 a {
     background-color: whitesmoke;
     text-decoration: none;
-    color: black;
-    
+    color: black; 
 }
 
 img {
@@ -47,7 +46,6 @@ button {
     font-size: 24px;
     font-family: 'Acme', sans-serif;
     color: rgb(3, 0, 3)
-    
 }
 
 .spacer {
