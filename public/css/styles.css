@@ -2,6 +2,11 @@
     background-color: #3a3232;
 }
 
+::placeholder { 
+    color: #0BF8B6;
+    opacity: 1; 
+  }
+
 a {
     background-color: whitesmoke;
     text-decoration: none;
@@ -28,8 +33,9 @@ h3 {
 }
 
 input {
-    color: black;
+    color: #0BF8B6;
     border: 3px solid black;
+    border-radius: 8px;
     padding: 8px;
     margin-right: 14px;
 }
