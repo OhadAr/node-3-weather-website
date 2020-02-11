@@ -41,15 +41,15 @@ button {
     cursor: pointer;
 }
 
-#message-1, #message-2 {
+.message {
     width: 600px;
-    font-size: 24px;
+    font-size: 16px;
     font-family: 'Acme', sans-serif;
-    color: rgb(3, 0, 3)
+    color: white
 }
 
 .spacer {
-    height: 180px;
+    height: 120px;
 }
 
 
