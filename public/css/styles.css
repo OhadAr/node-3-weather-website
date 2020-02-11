@@ -42,6 +42,7 @@ button {
 }
 
 .message {
+    margin: auto;
     width: 600px;
     font-size: 16px;
     font-family: 'Acme', sans-serif;
